@@ -9,7 +9,7 @@ setuptools.setup(
      author_email="tis7bfrankie@gmail.com",
      description="A better way to output colored text.",
      long_description=long_description,
-   long_description_content_type="text/markdown",
+     long_description_content_type="text/markdown",
      url="https://github.com/mclt0568/ColorStr",
      packages=setuptools.find_packages(),
      classifiers=[
