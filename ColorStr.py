@@ -1,7 +1,7 @@
 import parser,sys
 
 def parse(value):
-	return parse.parse(value)
+	return parser.parse(value)
 
 if __name__ == "__main__":
 	if sys.argv[1:]:
