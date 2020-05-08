@@ -29,9 +29,13 @@ def parse(text:str):
 					formed+=(colors.FGColors[i[1]])
 				elif i[1] in colors.Formats:
 					formed+=(colors.Formats[i[1]])
+				elif i[1] == MARKER_FG:
+					formed+=MARKER_FG
 			elif i[0] in MARKER_BG:
 				if i[1] in colors.BGColors:
 					formed+=(colors.BGColors[i[1]])
+				elif i[1] in MARKER_BG:
+					formed+=MARKER_BG
 			else:
 				formed+=(i)
 	return formed
