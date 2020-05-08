@@ -7,7 +7,7 @@ ColorStr is a library simplifies outputting color and readable!
 ### How To Install
 
 Still registering in pypi.
-For now, download from [Releases](/mclt0568/ColorStr/releases)
+For now, download from [Releases](https://www.github.com/mclt0568/ColorStr/releases)
 
 ### How To Use
 
