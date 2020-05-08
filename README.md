@@ -34,6 +34,6 @@ print(parse("§rRed Line!")) #Prints red line
 print(parse("§gGreen Line!")) #Prints green line
 
 print(parse("§GLorem Ipsum!"))
-print(parser("§RL§0§roremipsum")
+print(parser("§RL§0§roremipsum"))
 ```
 This is not only easier to use, it's also much more readable.
