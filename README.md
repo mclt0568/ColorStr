@@ -6,7 +6,7 @@ ColorStr is a library simplifies outputting color and readable!
 
 ### How To Install
 
-Use `pip install ColorStr`
+~~Use `pip install ColorStr`~~ (unusable untill i figure out how pypi works)
 Or download from [Releases](https://www.github.com/mclt0568/ColorStr/releases)
 
 ### How To Use
