@@ -7,7 +7,7 @@ ColorStr is a library simplifies outputting color and readable!
 ### How To Install
 
 Still registering in pypi.
-For now, download from [Releases](/mclt0568/ColorStr/releases/latest)
+For now, download from [Releases](releases)
 
 ### How To Use
 
@@ -33,7 +33,45 @@ from ColorStr import parse
 print(parse("§rRed Line!")) #Prints red line
 print(parse("§gGreen Line!")) #Prints green line
 
-print(parse("§GLorem Ipsum!"))
-print(parse("§RL§0§roremipsum"))
+print(parse("§GLorem Ipsum!"")
+print(parser("§RL§0§roremipsum")
 ```
 This is not only easier to use, it's also much more readable.
+
+### List of formattings
+
+**Note : not all terminal supports formatting. Please check before using it in your project* 
+
+| Color Name   | Foreground | Background |
+| ------------ | ---------- | ---------- |
+| Black        | §k         | ƒk         |
+| Red          | §r         | ƒr         |
+| Green        | §g         | ƒg         |
+| Yellow       | §y         | ƒy         |
+| Blue         | §b         | ƒb         |
+| Megenta      | §m         | ƒm         |
+| Cyan         | §c         | ƒc         |
+| White        | §w         | ƒw         |
+| Bold Black   | §K         | ƒK         |
+| Bold Red     | §R         | ƒR         |
+| Bold Green   | §G         | ƒG         |
+| Bold Yellow  | §Y         | ƒY         |
+| Bold Blue    | §B         | ƒB         |
+| Bold Megenta | §M         | ƒM         |
+| Bold Cyan    | §C         | ƒC         |
+| Bold White   | §W         | ƒW         |
+
+
+
+| Formatting | Code |
+| ---------- | ---- |
+| Reset All Formatting       | §0  |
+| Bold (or brighter color)      | §1  |
+| Darken      | §2  |
+| Italic      | §3  |
+| Underlined      | §4  |
+| Blinking      | §5  |
+| Un-Inverse Color      | §6  |
+| Inverse Color (Forground and Background)      | §7  |
+| Hide Charactors      | §8  |
+| Crossover      | §9  |
