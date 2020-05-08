@@ -6,7 +6,7 @@ ColorStr is a library simplifies outputting color and readable!
 
 ### How To Install
 
-Use `pip install ColorStr==1.0`
+Use `pip install ColorStr`
 Or download from [Releases](https://www.github.com/mclt0568/ColorStr/releases)
 
 ### How To Use
@@ -75,3 +75,6 @@ This is not only easier to use, it's also much more readable.
 | Inverse Color (Forground and Background)      | §7  |
 | Hide Charactors      | §8  |
 | Crossover      | §9  |
+
+### Contribution:
+[@yxliang01](https://www.github.com/yxliang01)
