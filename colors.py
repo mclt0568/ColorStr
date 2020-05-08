@@ -1,49 +1,50 @@
 formatHeader = "\033[{}m"
 
-class FGColors:
-	black = formatHeader.format("30")
-	red = formatHeader.format("31")
-	green = formatHeader.format("32")
-	yellow = formatHeader.format("33")
-	blue = formatHeader.format("34")
-	magenta = formatHeader.format("35")
-	cyan = formatHeader.format("36")
-	white = formatHeader.format("37")
-	Bblack = formatHeader.format("30;0")
-	Bred = formatHeader.format("31;0")
-	Bgreen = formatHeader.format("32;0")
-	Byellow = formatHeader.format("33;0")
-	Bblue = formatHeader.format("34;0")
-	Bmagenta = formatHeader.format("35;0")
-	Bcyan = formatHeader.format("36;0")
-	Bwhite = formatHeader.format("37;0")
 
-class BGColors:
-	black = formatHeader.format("40")
-	red = formatHeader.format("41")
-	green = formatHeader.format("42")
-	yellow = formatHeader.format("44")
-	blue = formatHeader.format("44")
-	magenta = formatHeader.format("45")
-	cyan = formatHeader.format("46")
-	white = formatHeader.format("47")
-	black = formatHeader.format("40;1")
-	red = formatHeader.format("41;1")
-	green = formatHeader.format("42;1")
-	yellow = formatHeader.format("44;1")
-	blue = formatHeader.format("44;1")
-	magenta = formatHeader.format("45;1")
-	cyan = formatHeader.format("46;1")
-	white = formatHeader.format("47;1")
+FGColors = {
+	"k":formatHeader.format("30"),
+	"r":formatHeader.format("31"),
+	"g":formatHeader.format("32"),
+	"y":formatHeader.format("33"),
+	"b":formatHeader.format("34"),
+	"m":formatHeader.format("35"),
+	"c":formatHeader.format("36"),
+	"w":formatHeader.format("37"),
+	"K":formatHeader.format("30;0"),
+	"R":formatHeader.format("31;0"),
+	"G":formatHeader.format("32;0"),
+	"Y":formatHeader.format("33;0"),
+	"B":formatHeader.format("34;0"),
+	"M":formatHeader.format("35;0"),
+	"C":formatHeader.format("36;0"),
+	"W":formatHeader.format("37;0")}
 
-class Formats:
-	reset = formatHeader.format("0")
-	bold = formatHeader.format("1")
-	dark = formatHeader.format("2")
-	italic = formatHeader.format("3")
-	underline = formatHeader.format("4")
-	blink = formatHeader.format("5")
-	normal = formatHeader.format("6")
-	reverse = formatHeader.format("7")
-	transparent = formatHeader.format("8")
-	crossover = formatHeader.format("9")
+BGColors={
+	"k":formatHeader.format("40"),
+	"r":formatHeader.format("41"),
+	"g":formatHeader.format("42"),
+	"y":formatHeader.format("44"),
+	"b":formatHeader.format("44"),
+	"m":formatHeader.format("45"),
+	"c":formatHeader.format("46"),
+	"w":formatHeader.format("47"),
+	"K":formatHeader.format("40;1"),
+	"R":formatHeader.format("41;1"),
+	"G":formatHeader.format("42;1"),
+	"Y":formatHeader.format("44;1"),
+	"B":formatHeader.format("44;1"),
+	"M":formatHeader.format("45;1"),
+	"C":formatHeader.format("46;1"),
+	"W":formatHeader.format("47;1")}
+
+Formats={
+	"0":formatHeader.format("0"),
+	"1":formatHeader.format("1"),
+	"2":formatHeader.format("2"),
+	"3":formatHeader.format("3"),
+	"4":formatHeader.format("4"),
+	"5":formatHeader.format("5"),
+	"6":formatHeader.format("6"),
+	"7":formatHeader.format("7"),
+	"8":formatHeader.format("8"),
+	"9":formatHeader.format("9")}
