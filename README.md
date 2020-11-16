@@ -6,8 +6,7 @@ ColorStr is a library simplifies outputting color and readable!
 
 ### How To Install
 
-~~Use `pip install ColorStr`~~ (unusable untill i figure out how pypi works)
-Or download from [Releases](https://www.github.com/mclt0568/ColorStr/releases)
+Use `pip install ColorStr` Or download from [Releases](https://www.github.com/mclt0568/ColorStr/releases)
 
 ### How To Use
 
@@ -38,7 +37,7 @@ print(parse("§RL§0§roremipsum"))
 ```
 This is not only easier to use, it's also much more readable.
 
-### List of formattings
+### List of formatting
 
 **Note : not all terminal supports formatting. Please check before using it in your project* 
 
