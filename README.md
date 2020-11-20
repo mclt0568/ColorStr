@@ -75,5 +75,5 @@ This is not only easier to use, it's also much more readable.
 | Hide Charactors      | §8  |
 | Crossover      | §9  |
 
-### Contribution:
+### Contributor:
 [@yxliang01](https://www.github.com/yxliang01)
