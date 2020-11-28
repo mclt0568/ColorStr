@@ -1,4 +1,6 @@
 # ColorStr
+[中文文檔](https://github.com/mclt0568/ColorStr/blob/master/README_Zh.md)
+
 A python lib, A better way. 
 Rainbowlize your Terminal
 
